@@ -35,6 +35,7 @@ Petit projet réalisé avec **Godot** avec niveau de jeu avec un personnage dyna
  - **Audio :**
    - https://freesound.org/people/orginaljun/sounds/534347/
    - https://freesound.org/people/BloodPixelHero/sounds/584075/
+   - https://sfxr.me/
  - **TileMap et fond:**
    - https://theflavare.itch.io/forest-nature-fantasy-tileset
  - **Particules :**
