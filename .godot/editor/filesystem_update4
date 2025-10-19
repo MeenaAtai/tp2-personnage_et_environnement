@@ -1,6 +1,5 @@
 res://scenes/Jeu.tscn
 res://player.gd
-res://menu.gd
 res://scenes/menu.tscn
 res://scenes/instructions.tscn
 res://scenes/player.tscn

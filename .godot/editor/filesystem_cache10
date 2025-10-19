@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1760847999
+::res://::1760848135
 enemy.gd::GDScript/GDScript::2302493170638111563::1760845700::0::1::::Enemy<>CharacterBody2D<><>0<>0<><>::
 export_presets.cfg::TextFile/TextFile::-1::1760846362::0::1::::<><><>0<>0<><>::
 icon.svg::CompressedTexture2D/CompressedTexture2D::4507351518625478693::1760496466::1760845825::1::::<><><>0<>0<>68e0c1694fa188e6f95c0af2bf838ddd<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
@@ -7,7 +7,7 @@ instructions.gd::GDScript/GDScript::3925584225270906560::1760845699::0::1::::<>C
 jeu.gd::GDScript/GDScript::-1::1760562889::0::1::::<>Node2D<><>0<>0<><>::
 menu.gd::GDScript::8853300192696149742::1760847533::0::1::::<>CanvasLayer<><>0<>0<><>::
 player.gd::GDScript::8868849965636485851::1760847533::0::1::::Player<>CharacterBody2D<><>0<>0<><>::
-README.md::TextFile::-1::1760847999::0::1::::<><><>0<>0<><>::
+README.md::TextFile/TextFile::-1::1760847999::0::1::::<><><>0<>0<><>::
 ::res://assets/::1760844127
 ::res://assets/audio/::1760845827
 534347__orginaljun__funky-pixel-melody-loop.wav::AudioStreamWAV/AudioStreamWAV::8109129191371520568::1760583406::1760845827::1::::<><><>0<>0<>4beeca2a2827ffe935c8bd9973964fa6<>res://.godot/imported/534347__orginaljun__funky-pixel-melody-loop.wav-d49bf279cad605909591df506a000d07.sample::
@@ -580,10 +580,10 @@ Take Hit.png::CompressedTexture2D/CompressedTexture2D::2174125760346671745::1760
 ::res://assets/tileset/::1760845825
 Terrain-and-Props-OLD.png::CompressedTexture2D/CompressedTexture2D::1334145474008413050::1760496467::1760845825::1::::<><><>0<>0<>0b1e88f2581ba3c7bbe400ee0386c92d<>res://.godot/imported/Terrain-and-Props-OLD.png-583b5cd8d16549638ad9fb109601535c.ctex::
 Terrain_and_Props.png::CompressedTexture2D/CompressedTexture2D::5096907889216975935::1760496467::1760845825::1::::<><><>0<>0<>06a0b11a9515c4d5ae3f3a02d7e8a07f<>res://.godot/imported/Terrain_and_Props.png-bbf6ea07c6cc51d9830c29b615057697.ctex::
-::res://docs/::1760847901
-index.apple-touch-icon.png::CompressedTexture2D::6558694307276861322::1760847901::1760848012::1::::<><><>0<>0<>8e19cc1a32a418eb87c669fca76605cc<>res://.godot/imported/index.apple-touch-icon.png-b21a756d869f84af832970a74d8371bc.ctex::
-index.icon.png::CompressedTexture2D::4763382487581849276::1760847901::1760848012::1::::<><><>0<>0<>7f1881f475acb07f3fcd8bdb3bcb4348<>res://.godot/imported/index.icon.png-b92c9a802ad4b78e247784454a6b506f.ctex::
-index.png::CompressedTexture2D::1211789045424628217::1760847901::1760848012::1::::<><><>0<>0<>ec43fb63df7810eaeffe6130e588efad<>res://.godot/imported/index.png-0c78d14d192abe5f22f8c25928ca1ab8.ctex::
+::res://docs/::1760848013
+index.apple-touch-icon.png::CompressedTexture2D/CompressedTexture2D::6558694307276861322::1760847901::1760848012::1::::<><><>0<>0<>8e19cc1a32a418eb87c669fca76605cc<>res://.godot/imported/index.apple-touch-icon.png-b21a756d869f84af832970a74d8371bc.ctex::
+index.icon.png::CompressedTexture2D/CompressedTexture2D::4763382487581849276::1760847901::1760848012::1::::<><><>0<>0<>7f1881f475acb07f3fcd8bdb3bcb4348<>res://.godot/imported/index.icon.png-b92c9a802ad4b78e247784454a6b506f.ctex::
+index.png::CompressedTexture2D/CompressedTexture2D::1211789045424628217::1760847901::1760848012::1::::<><><>0<>0<>ec43fb63df7810eaeffe6130e588efad<>res://.godot/imported/index.png-0c78d14d192abe5f22f8c25928ca1ab8.ctex::
 ::res://projet/::1760845812
 ::res://scenes/::1760847842
 enemy.tscn::PackedScene::3611028549835483038::1760847842::0::1::::<><><>0<>0<><>::uid://72lyxnq5s7tv::::res://enemy.gd<>uid://dd5neagmgr4fo::::res://assets/personnage/enemie/CursedMushroom/Idle.png<>uid://b5vk1rkmgyvlo::::res://assets/audio/enemy_hitHurt.wav<>uid://d1131sdhy8qul::::res://assets/personnage/enemie/CursedMushroom/Death.png<>uid://7ma46e1th45m::::res://assets/personnage/enemie/CursedMushroom/Run.png<>uid://cdpd0oy7anvfl::::res://assets/Explosions/Blue/explosion_blue_42.png<>uid://dfpbnvcsqqiqf::::res://assets/audio/explosion.wav<>uid://cjc2gwcorr4hd::::res://assets/personnage/enemie/CursedMushroom/Projectile_sprite.png<>uid://dpduc1okfbwav::::res://assets/personnage/enemie/CursedMushroom/Take Hit.png<>uid://baborw5ujji58::::res://assets/personnage/enemie/CursedMushroom/Attack1.png<>uid://bldorkus6bk88::::res://assets/personnage/enemie/CursedMushroom/Attack2.png<>uid://m5ud8frv3ra::::res://assets/personnage/enemie/CursedMushroom/Attack3.png
