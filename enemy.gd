@@ -17,7 +17,6 @@ var direction = Vector2.LEFT
 var health = 1
 
 func _physics_process(delta: float) -> void:
-	# appliquer la gravité
 	if not is_on_floor():
 		velocity.y += gravity * delta
 

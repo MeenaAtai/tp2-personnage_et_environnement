@@ -3,10 +3,9 @@ extends CharacterBody2D
 
 const SPEED = 200.0
 const JUMP_VELOCITY = -300.0
-var jump_count = 0  # Compte le nombre de sauts effectués
+var jump_count = 0 
 
 @onready var audioJump = $audioJump
-
 
 func _physics_process(delta: float) -> void:
 	if not is_on_floor():
