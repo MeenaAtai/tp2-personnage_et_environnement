@@ -51,3 +51,4 @@ func animations(direction):
 			$AnimatedSprite2D.play("jump")
 		elif velocity.y > 0:
 			$AnimatedSprite2D.play("fall")
+			
