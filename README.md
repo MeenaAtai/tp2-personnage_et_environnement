@@ -18,5 +18,15 @@ Petit projet réalisé avec **Godot** explore la combinaison entre réactivité 
 - **Interface** :
   - Boutons et sprites restent bien placés grâce au système d’ancres.
  
-## Crédits
+ ## Crédits
+ - **Personnage :**
+   - 
+ - **Ennemie :**
+   - 
+ - **Audio :**
+   - 
+ - **TileMap :**
+   - 
+ - **Particules :**
+   - 
 
