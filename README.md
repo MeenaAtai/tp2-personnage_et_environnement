@@ -1,4 +1,4 @@
-# TP2 - personnage et environnemnet
+# TP2 - personnage et environnement
 
 ## Description
 Petit projet réalisé avec **Godot** avec niveau de jeu avec un personnage dynamique et un environnement physique interactif. Implémentation de logique de mouvement et états de personnage intégrés à un espace cohérent et fonctionnel :
