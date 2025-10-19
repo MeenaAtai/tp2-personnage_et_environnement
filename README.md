@@ -25,7 +25,7 @@ Petit projet réalisé avec **Godot** explore la combinaison entre réactivité 
    - 
  - **Audio :**
    - 
- - **TileMap :**
+ - **TileMap et fond:**
    - 
  - **Particules :**
    - 
