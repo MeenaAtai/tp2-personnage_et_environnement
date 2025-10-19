@@ -1,0 +1,170 @@
+[gd_scene load_steps=19 format=3 uid="uid://bxhb5uege4ng5"]
+
+[ext_resource type="Script" uid="uid://bv6t2filww7ro" path="res://instructions.gd" id="1_r7su1"]
+[ext_resource type="FontFile" uid="uid://bfqb0iyxyahdd" path="res://assets/font/kiwisoda/KiwiSoda.ttf" id="2_c6be6"]
+[ext_resource type="AudioStream" uid="uid://dnsef5arins8g" path="res://assets/audio/534347__orginaljun__funky-pixel-melody-loop.wav" id="3_i2hxp"]
+[ext_resource type="Texture2D" uid="uid://dy5p6t80w231r" path="res://assets/personnage/joueur/2_Cat_Run-Sheet.png" id="4_2n4j6"]
+[ext_resource type="Texture2D" uid="uid://bm48gc276jno1" path="res://assets/Fond/menu/Part 2 K.png" id="5_olnwl"]
+
+[sub_resource type="Gradient" id="Gradient_jh4dl"]
+offsets = PackedFloat32Array(0, 0.529762, 1)
+colors = PackedColorArray(0.2, 0.0941176, 0.203922, 1, 0.153753, 0.240568, 0.324679, 1, 0.0461763, 0.212605, 0.163714, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_gosh8"]
+gradient = SubResource("Gradient_jh4dl")
+fill = 1
+fill_from = Vector2(0.517241, 0.50431)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ne5nb"]
+atlas = ExtResource("4_2n4j6")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jh4dl"]
+atlas = ExtResource("4_2n4j6")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gosh8"]
+atlas = ExtResource("4_2n4j6")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dt5x2"]
+atlas = ExtResource("4_2n4j6")
+region = Rect2(96, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jxc20"]
+atlas = ExtResource("4_2n4j6")
+region = Rect2(128, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nqnh2"]
+atlas = ExtResource("4_2n4j6")
+region = Rect2(160, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vlgeb"]
+atlas = ExtResource("4_2n4j6")
+region = Rect2(192, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n4gs6"]
+atlas = ExtResource("4_2n4j6")
+region = Rect2(224, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_e121d"]
+atlas = ExtResource("4_2n4j6")
+region = Rect2(256, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7631i"]
+atlas = ExtResource("4_2n4j6")
+region = Rect2(288, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_vb0mi"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ne5nb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jh4dl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gosh8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dt5x2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jxc20")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nqnh2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vlgeb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n4gs6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_e121d")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7631i")
+}],
+"loop": true,
+"name": &"run",
+"speed": 5.0
+}]
+
+[node name="CanvasLayer" type="CanvasLayer"]
+script = ExtResource("1_r7su1")
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Control"]
+layout_mode = 0
+offset_left = 272.0
+offset_top = 136.0
+offset_right = 904.0
+offset_bottom = 304.0
+theme_override_fonts/normal_font = ExtResource("2_c6be6")
+theme_override_font_sizes/normal_font_size = 35
+text = "Utiliser les touches flèches ou WASD du clavier pour déplacer le personnage
+
+Sauter sur les enemies pour les éliminer
+
+Essayer de rendre jusqu'à la fin"
+tab_size = 6
+
+[node name="retour" type="Button" parent="Control"]
+z_index = 1
+layout_mode = 0
+offset_left = 248.0
+offset_top = 424.0
+offset_right = 464.0
+offset_bottom = 512.0
+theme_override_fonts/font = ExtResource("2_c6be6")
+theme_override_font_sizes/font_size = 45
+toggle_mode = true
+text = "Retour"
+
+[node name="jouer" type="Button" parent="Control"]
+layout_mode = 0
+offset_left = 672.0
+offset_top = 424.0
+offset_right = 904.0
+offset_bottom = 512.0
+theme_override_fonts/font = ExtResource("2_c6be6")
+theme_override_font_sizes/font_size = 45
+toggle_mode = true
+text = "Jouer"
+
+[node name="TextureRect" type="TextureRect" parent="Control"]
+z_index = -1
+layout_mode = 0
+offset_right = 1152.0
+offset_bottom = 656.0
+mouse_filter = 2
+texture = SubResource("GradientTexture2D_gosh8")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_i2hxp")
+autoplay = true
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(576, 376)
+scale = Vector2(3.5, 3.5)
+sprite_frames = SubResource("SpriteFrames_vb0mi")
+animation = &"run"
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(576, 324)
+scale = Vector2(16.9412, 9.52941)
+texture = ExtResource("5_olnwl")
+hframes = 10
+vframes = 8
+frame = 12
+
+[connection signal="pressed" from="Control/retour" to="." method="_on_retour_pressed"]
+[connection signal="pressed" from="Control/jouer" to="." method="_on_jouer_pressed"]
