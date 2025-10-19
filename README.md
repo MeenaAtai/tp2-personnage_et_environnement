@@ -1,4 +1,4 @@
-# TP2 - personnage et environnemnt
+# TP2 - personnage et environnemnet
 
 ## Description
 Petit projet réalisé avec **Godot** explore la combinaison entre réactivité audiovisuelle et interactions clavier, tout en intégrant les fonctionnalités essentielles de gestion des médias dans Godot :
