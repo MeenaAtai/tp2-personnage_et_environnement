@@ -13,14 +13,14 @@ Petit projet réalisé avec **Godot** explore la combinaison entre réactivité 
 - **Clavier** :
   - Flèche gauche : active/désactive l’animation d’attaque (`attack`).
   - Flèche gauche : active/désactive l’animation d’attaque (`jump`).
-- **Fond** :
+- **Fond parallax** :
   - Image de fond qui s’ajuste automatiquement à la fenêtre.
-- **Interface** :
+- **Interface menu** :
   - Boutons et sprites restent bien placés grâce au système d’ancres.
  
  ## Crédits
  - **Personnage :**
-   - 
+   - https://oboropixel.itch.io/character-animations
  - **Ennemie :**
    - 
  - **Audio :**
