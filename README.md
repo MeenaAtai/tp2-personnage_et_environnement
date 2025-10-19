@@ -2,15 +2,20 @@
 
 ## Description
 Petit projet réalisé avec **Godot** avec niveau de jeu avec un personnage dynamique et un environnement physique interactif. Implémentation de logique de mouvement et états de personnage intégrés à un espace cohérent et fonctionnel :
-- l’utilisation de **boutons toggle** pour déclencher des animations et du son,
-- la gestion des **entrées clavier** pour lancer une animation sprite et son,
-- la mise en place d’un **fond** qui s’adapte à la taille de la fenêtre,
-- une interface avec **sprites et boutons** synchronisé avec événements.
+- l’utilisation de **TileMap** pour avoir un enviromement interactif,
+- la gestion des **entrées clavier** pour lancer une animation sprite et son et des déplacements du joueur,
+- la mise en place des **fonds parallax** qui s’adapte à la taille de la fenêtre,
+- Évenements où le joueur peut sauter sur les ennemies pour les éliminer avec collision
+- une interface menu avec **sprites et boutons** synchronisé avec événements.
 
 ## Fonctionnalités
-- **collision TileMap** :
+- **TileMap** :
   - Détection de collision avec TileMap entre joueur et ennemies.
-  - Implantation de physique
+  - Implantation de physique et collision
+  - Création d’un environnement virtuel navigable
+- **Objet interactif qui change comportement du niveau/personnage** :
+  - Joueur élimine l'ennemi en sautant par-dessus avec collision
+  - Integration de sons et particules par événements
 - **Déplacement du joueur avec Clavier** :
   - Flèche gauche et A : Déplace le joueur vers la gauche et active/désactive l’animation de courir (`run`).
   - Flèche droite et D : Déplace le joueur vers la droite et active/désactive l’animation d’courir (`run`).
