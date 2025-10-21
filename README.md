@@ -17,10 +17,10 @@ Petit projet réalisé avec **Godot** avec niveau de jeu avec un personnage dyna
   - Joueur élimine l'ennemi en sautant par-dessus avec collision
   - Integration de sons et particules par événements
 - **Déplacement du joueur avec Clavier** :
-  - Flèche gauche et A : Déplace le joueur vers la gauche et active/désactive l’animation de courir (`run`).
-  - Flèche droite et D : Déplace le joueur vers la droite et active/désactive l’animation d’courir (`run`).
-  - Flèche haut et W : Activer le saut et double saut du joueur et active/désactive l’animation de saut (`jump`).
-  - Flèche bas et S : Faire tomber le joueur et active/désactive l’animation de bas (`fall`).
+  - Flèche gauche et A : Déplace le joueur vers la gauche et active l’animation de courir (`run`).
+  - Flèche droite et D : Déplace le joueur vers la droite et active l’animation d’courir (`run`).
+  - Flèche haut et W : Activer le saut et double saut du joueur et active l’animation de saut (`jump`).
+  - Flèche bas et S : Faire tomber le joueur et active l’animation de bas (`fall`).
 - **Fond parallax** :
   - Image de fond qui s’ajuste automatiquement à la fenêtre.
   - Effet visuel pour donner une impression de profondeur et de mouvement réaliste.
